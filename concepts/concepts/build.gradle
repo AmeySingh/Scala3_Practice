@@ -1,4 +1,5 @@
 plugins {
+    id 'scala'
     id 'java'
 }
 
@@ -10,11 +11,17 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    implementation 'org.scala-lang:scala-library:2.12.10'
     implementation group: 'org.apache.spark', name: 'spark-core_2.12', version: '3.1.1'
     implementation group: 'org.apache.spark', name: 'spark-sql_2.12', version: '3.1.1'
     implementation group: 'net.liftweb', name: 'lift-json_2.13', version: '3.4.3'
+
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'TestDeckofcards'
+    }
 }
 
 test {
