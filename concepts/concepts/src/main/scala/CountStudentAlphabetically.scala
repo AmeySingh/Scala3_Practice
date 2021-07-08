@@ -38,6 +38,9 @@ object CountStudentAlphabetically extends App {
 
   println(lWords)
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> ab990d7eef07b45ff9e5587f9b0087010fd43f34
 }
