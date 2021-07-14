@@ -12,8 +12,8 @@ def upload_file(file_name, bucket, object_name=None):
 
     # Upload the file
     s3_client = boto3.client('s3',
-                         aws_access_key_id="AKIA4DZ4H26U2LLDGYPR",
-                         aws_secret_access_key="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")
+                         aws_access_key_id="***************************",
+                         aws_secret_access_key="**************************")
     try:
         response = s3_client.upload_file(file_name, bucket, object_name)
     except ClientError as e:
