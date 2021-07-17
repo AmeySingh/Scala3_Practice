@@ -2,13 +2,13 @@ import boto3
 import boto3.s3
 
 s3r = boto3.resource('s3',
-    aws_access_key_id="AKIA4DZ4H26UUOSO67GF",
-    aws_secret_access_key="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",
+aws_access_key_id="*****************",
+    aws_secret_access_key="***********************",
 )
 
 s3c = boto3.client('s3',
-    aws_access_key_id="AKIA4DZ4H26U2LLDGYPR",
-    aws_secret_access_key="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",
+    aws_access_key_id="****************",
+    aws_secret_access_key="****************************",
 )
 
 with open('Student.json', 'wb') as f:
