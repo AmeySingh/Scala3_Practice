@@ -1,4 +1,4 @@
-import TestStudentPercentCalc.elements
+
 import net.liftweb.json.DefaultFormats
 
 import scala.io.Source
@@ -7,7 +7,7 @@ import scala.util.Sorting.quickSort
 
 import scala.collection.mutable.ArrayBuffer
 import scala.collection.mutable.ListBuffer
-import scala.tools.nsc.doc.html.HtmlTags.A
+
 case class User3 (
                     id: Int,
                     name: String,
@@ -38,9 +38,5 @@ object CountStudentAlphabetically extends App {
 
   println(lWords)
 
-<<<<<<< HEAD
 
-
-=======
->>>>>>> ab990d7eef07b45ff9e5587f9b0087010fd43f34
 }

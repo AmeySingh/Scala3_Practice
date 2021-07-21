@@ -7,7 +7,7 @@ import scala.util.Sorting.quickSort
 
 import scala.collection.mutable.ArrayBuffer
 import scala.collection.mutable.ListBuffer
-import scala.tools.nsc.doc.html.HtmlTags.A
+
 case class User2 (
                     id: Int,
                     name: String,

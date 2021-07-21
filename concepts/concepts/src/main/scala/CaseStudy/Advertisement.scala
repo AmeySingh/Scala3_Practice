@@ -8,7 +8,7 @@ import org.json4s.JsonAST.JValue
 import scala.util.Sorting.quickSort
 import scala.collection.mutable.ArrayBuffer
 import scala.collection.mutable.ListBuffer
-import scala.tools.nsc.doc.html.HtmlTags.A
+
 
 case class Clicks(
                  impression_id: String,
